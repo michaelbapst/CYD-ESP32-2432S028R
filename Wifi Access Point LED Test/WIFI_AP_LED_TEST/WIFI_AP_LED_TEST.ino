@@ -124,7 +124,7 @@ void setup() {
   
   //Print Password to screen
   tft.setTextColor(TFT_YELLOW, TFT_BLACK, true);
-  tft.drawString("IP Address:", 5, 100, 2); // Left Aligned
+  tft.drawString("Password:", 5, 100, 2); // Left Aligned
   tft.setTextColor(TFT_WHITE, TFT_BLACK, true);
   if (password == "") {
     tft.drawCentreString("<NONE>", 160, 100, 2);
