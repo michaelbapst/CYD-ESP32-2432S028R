@@ -1,10 +1,10 @@
 /************************************************************************************************************
   Wifi Access Point LED Test for ESP32 Cheap Yellow Display 
   Adapted by Michael Bapst (https://www.einherjar.org)
-  Creates a customized Wifi Access Point and serves up a Webpage (Default: 192.168.4.1) with 3 links.
+  Creates a customizable Wifi Access Point and serves up a Webpage (Default: 192.168.4.1) with 3 links.
   Displays Server access information on the display. Clicking a link will toggle CYD's built in LED Red/Green/Blue colors on/off
 
-  This code was a learning project on how to set up and access point, serve simple html, how to deal with simple client requests,
+  This code was a learning project on how to set up a Wifi access point, serve simple html, how to deal with simple client requests,
   and working with simple GPIO interface.
 
   WIFI_AP_LED_TEST.ino based on WiFiAccessPoint.ino
